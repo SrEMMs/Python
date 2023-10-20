@@ -17,3 +17,4 @@ elif op == 4:
     print('Sua compra foi de R${:.2f}, você não terá um acréscimo de 20%!'.format(preco))
     juros = (preco * 120) / 100
     print('Você irá pagar R${:.2f} em {} parcelas de R${:.2f}!'.format(juros, parcelas, juros/parcelas))
+
